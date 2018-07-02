@@ -3,7 +3,7 @@ render: function() {
 var elapsed = Math.round(this.props.elapsed / 100);
 var seconds = elapsed / 10 + (elapsed % 10 ? '' : '.0' );
 var message =
-'React ' + seconds + ' saniyedir başarıyla çalışıyor.';
+'React ' + seconds + ' saniyedir başarıyla çalışıyorrr.';
 return <p>{message}</p>;
 }
 });
